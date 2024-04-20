@@ -20,6 +20,6 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 
 **P002:** Ray Tracing in One Weekend
 
-![P002](.image/README/raytracing.svg "Raytracing in one weekend")
+<img src=".image/README/raytracing.svg" alt="Raytracing in one weekend" width="100" height="100">
 
 ---
