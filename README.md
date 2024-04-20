@@ -14,7 +14,7 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 
 **P001:** My own Redis
 
-![P001](.image/README/redis.svg "My own Redis")
+<img src=".image/README/redis.svg" alt="My own Redis" width="100" height="100">
 
 ---
 
