@@ -14,12 +14,12 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 
 **P001:** My own Redis
 
-![P001](.image/README/P001.png "[TBA]")
+![P001](.image/README/redis.svg "My own Redis")
 
 ---
 
 **P002:** Ray Tracing in One Weekend
 
-![P002](.image/README/P002-1.gif "[TBA]")    ![P002](.image/README/P002-2.gif "[TBA]")
+![P002](.image/README/raytracing.svg "Raytracing in one weekend")
 
 ---
