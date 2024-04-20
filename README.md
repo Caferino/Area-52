@@ -14,7 +14,7 @@ Reference: https://app.codecrafters.io/catalog   ||   https://github.com/codecra
 
 **P001:** [TBA]
 
-![P001](.image/README/loading.png "[TBA]")
+<img src=".image/README/redis.svg" alt="My own Redis" width="100" height="100">
 
 ---
 
