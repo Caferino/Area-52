@@ -2,9 +2,9 @@
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 
 <svg
-   width="800px"
-   height="800px"
-   viewBox="0 0 512 512"
+   width="30"
+   height="29.727802"
+   viewBox="0 0 19.2 19.025793"
    version="1.1"
    id="svg4"
    sodipodi:docname="raytracing.svg"
@@ -24,18 +24,22 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.9725"
-     inkscape:cx="400"
-     inkscape:cy="399.48586"
+     inkscape:zoom="2.7506454"
+     inkscape:cx="46.534534"
+     inkscape:cy="53.98733"
      inkscape:window-width="1920"
      inkscape:window-height="1019"
      inkscape:window-x="1920"
      inkscape:window-y="31"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg4"
+     showguides="false" />
   <path
      fill="#000000"
-     d="M136.564 31.01l239.67 149.595c-12.418 21.234-20.756 28.302-45.027 46.936l156.3-26.33-85.603-125.474c4.936 24.85 8.85 38.5.75 60.49L136.568 31.01h-.004zM21.524 42.75l83.13 325.893c-21.017 5.232-30.98 3.262-58.875-3.96l124.046 113.45 13.426-166.844c-10.836 23.322-15.94 37.197-34.342 46.82L21.523 42.75zm64.353.215l252.2 353.16c-23.285 16.947-36.38 19.583-73.83 24.9l200.66 71.74L407.7 286.944c-2.477 33.743-2.313 53.14-20.37 74.09L85.877 42.965z"
+     d="m 4.74005,0 9.875154,6.163783 c -0.511661,0.874907 -0.855212,1.16613 -1.855253,1.93391 L 19.2,7.012814 15.672888,1.842892 c 0.203379,1.023898 0.364649,1.586321 0.0309,2.492378 L 4.740214,0 Z M 4.1e-5,0.483725 3.425258,13.911537 C 2.559291,14.127111 2.148785,14.045941 0.999423,13.748373 L 6.110507,18.422868 6.6637,11.548372 C 6.217223,12.509311 6.006922,13.081005 5.248702,13.477503 L 0,0.483725 Z m 2.651545,0.0089 10.39143,14.551297 c -0.959415,0.698269 -1.49897,0.806881 -3.042027,1.025958 l 8.26782,2.955913 -2.357107,-8.48047 c -0.10206,1.390317 -0.0953,2.189535 -0.839307,3.05274 z"
      id="path2"
-     style="fill:#ffffff" />
+     style="fill:#ffffff;stroke-width:0.0412032"
+     inkscape:export-filename="/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/.image/README/raytracer.svg"
+     inkscape:export-xdpi="15.48"
+     inkscape:export-ydpi="15.48" />
 </svg>

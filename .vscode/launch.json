@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/raytracing-one-weekend",
+      "program": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/raytracing-one-weekend/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
