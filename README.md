@@ -23,3 +23,12 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 <img src="raytracing-one-weekend/final_result.jpeg" alt="Raytracing in one weekend">
 
 ---
+
+**P003:** How OpenGL Works ![Ray Tracing Image](.image/README/opengl.svg)
+
+
+---
+
+---
+
+---
