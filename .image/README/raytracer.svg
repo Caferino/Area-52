@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="30"
+   height="29.727802"
+   viewBox="0 0 19.2 19.025793"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="raytracing.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.7506454"
+     inkscape:cx="46.534534"
+     inkscape:cy="53.98733"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1920"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     showguides="false" />
+  <path
+     fill="#000000"
+     d="m 4.74005,0 9.875154,6.163783 c -0.511661,0.874907 -0.855212,1.16613 -1.855253,1.93391 L 19.2,7.012814 15.672888,1.842892 c 0.203379,1.023898 0.364649,1.586321 0.0309,2.492378 L 4.740214,0 Z M 4.1e-5,0.483725 3.425258,13.911537 C 2.559291,14.127111 2.148785,14.045941 0.999423,13.748373 L 6.110507,18.422868 6.6637,11.548372 C 6.217223,12.509311 6.006922,13.081005 5.248702,13.477503 L 0,0.483725 Z m 2.651545,0.0089 10.39143,14.551297 c -0.959415,0.698269 -1.49897,0.806881 -3.042027,1.025958 l 8.26782,2.955913 -2.357107,-8.48047 c -0.10206,1.390317 -0.0953,2.189535 -0.839307,3.05274 z"
+     id="path2"
+     style="fill:#ffffff;stroke-width:0.0412032"
+     inkscape:export-filename="/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/.image/README/raytracer.svg"
+     inkscape:export-xdpi="15.48"
+     inkscape:export-ydpi="15.48" />
+</svg>
