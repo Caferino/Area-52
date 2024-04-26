@@ -1,6 +1,6 @@
 # Area 52
 
-A personal space to save my codecrafters' projects. The goal of all this is the experience.
+A personal space to save my codecrafters' projects. The goal of all this is the experience. I plan to first type them all out by hand, not copy and paste, and then, after feeling more confidence in what is happening, comment what I understand in each of these projects, unordered, just like my emotions.
 
 Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecrafters-io/build-your-own-x
 
@@ -26,8 +26,7 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 
 **P003:** How OpenGL Works ![Ray Tracing Image](.image/README/opengl.svg)
 
-<img src="how-opengl-works/output.jpg" alt="Lesson 02" width=300>
-
+<img src="how-opengl-works/results/lesson2.jpg" alt="Lesson 02" width=300>
 
 ---
 
