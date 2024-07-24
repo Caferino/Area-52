@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net-web-app", "net-web-app", "{DC7694E0-C54B-424F-9BD1-72DB6BD4DD6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alcarodia", "net-web-app\Alcarodia\Alcarodia.csproj", "{E95D040B-944C-422E-8A12-3E58246BF614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E95D040B-944C-422E-8A12-3E58246BF614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95D040B-944C-422E-8A12-3E58246BF614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95D040B-944C-422E-8A12-3E58246BF614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95D040B-944C-422E-8A12-3E58246BF614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E95D040B-944C-422E-8A12-3E58246BF614} = {DC7694E0-C54B-424F-9BD1-72DB6BD4DD6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E33C9BD6-7100-4E60-B14D-294C1AEF781D}
+	EndGlobalSection
+EndGlobal
