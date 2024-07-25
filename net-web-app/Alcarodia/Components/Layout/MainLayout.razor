@@ -1,23 +1,41 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
+<MudThemeProvider/>
+
+<div id="parallax" @onmousemove="MoveParallax" style="@parallaxStyle">
+    <div class="page">
+
+        <main>
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+
     </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
 </div>
 
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
+@code {
+    private double _w = 960;
+    private double _h = 540;
+    private double _mouseX;
+    private double _mouseY;
+    string parallaxStyle = "background-position: 50%, 50%, 50%";
+
+    private void MoveParallax(MouseEventArgs e)
+    {
+        _mouseX = e.ClientX;
+        _mouseY = e.ClientY;
+
+        string _depth1 = $"{50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%";
+        string _depth2 = $"{50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%";
+        string _depth3 = $"{50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%";
+        parallaxStyle = "background-position: 5%, 5%, 5%;";
+        StateHasChanged();  @* Maybe deprecated *@
+    }
+}

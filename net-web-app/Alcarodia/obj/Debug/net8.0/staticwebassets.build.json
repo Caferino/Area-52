@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5cRCYrzK/k7Ghz+j7Mx6fcWQrsLHy0uuqgsXTi5bJY8=",
+  "Hash": "HSjlYOL38/lXu5LxKyDy/wM5aO7rb5jACdTP3FAcWTk=",
   "Source": "Alcarodia",
   "BasePath": "_content/Alcarodia",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/home/caferino/.nuget/packages/mudblazor/7.4.0/staticwebassets/MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/home/caferino/.nuget/packages/mudblazor/7.4.0/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/caferino/.nuget/packages/mudblazor/7.4.0/staticwebassets/MudBlazor.min.css"
+    },
+    {
+      "Identity": "/home/caferino/.nuget/packages/mudblazor/7.4.0/staticwebassets/MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/home/caferino/.nuget/packages/mudblazor/7.4.0/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/caferino/.nuget/packages/mudblazor/7.4.0/staticwebassets/MudBlazor.min.js"
+    },
     {
       "Identity": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/obj/Debug/net8.0/scopedcss/bundle/Alcarodia.styles.css",
       "SourceId": "Alcarodia",
