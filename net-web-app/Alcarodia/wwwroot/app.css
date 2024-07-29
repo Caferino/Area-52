@@ -49,3 +49,22 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #001f3f;
+    background-size: 50%, 50%, 50%;
+    background-repeat: no-repeat;
+    background-image: url("../alcarodia-piece.svg"),
+                      url("../world-piece.svg"), 
+                      url("../ring-piece.svg");
+}
+
+@font-face {
+    font-family: 'Alcarodian';
+    src: url("fonts/Alcarodian.otf") format('opentype');
+}

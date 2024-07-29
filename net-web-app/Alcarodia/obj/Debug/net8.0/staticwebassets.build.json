@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HSjlYOL38/lXu5LxKyDy/wM5aO7rb5jACdTP3FAcWTk=",
+  "Hash": "+HOlHr+YEBtee51hbs0DDTwG1G/oijJvr1Zh7HoD3Cw=",
   "Source": "Alcarodia",
   "BasePath": "_content/Alcarodia",
   "Mode": "Default",
@@ -186,6 +186,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/fonts/Alcarodian.otf",
+      "SourceId": "Alcarodia",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/",
+      "BasePath": "_content/Alcarodia",
+      "RelativePath": "fonts/Alcarodian.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/fonts/Alcarodian.otf"
+    },
+    {
+      "Identity": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/homepage images/A New World Cover.jpeg",
+      "SourceId": "Alcarodia",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/",
+      "BasePath": "_content/Alcarodia",
+      "RelativePath": "homepage images/A New World Cover.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/homepage images/A New World Cover.jpeg"
     }
   ]
 }

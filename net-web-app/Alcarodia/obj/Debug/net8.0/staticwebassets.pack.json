@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/fonts/Alcarodian.otf",
+      "PackagePath": "staticwebassets/fonts/Alcarodian.otf"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/homepage images/A New World Cover.jpeg",
+      "PackagePath": "staticwebassets/homepage images/A New World Cover.jpeg"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Alcarodia.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

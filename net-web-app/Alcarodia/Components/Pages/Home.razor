@@ -1,9 +1,28 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
-<h1>Hello, Ca!</h1>
+<div class="parallax" @onmousemove="MoveParallax" @onmouseleave="ResetParallax" style="@parallaxStyle"></div>
 
-Welcome to your new website.
+@code {
+    private double _w = 960;
+    private double _h = 540;
+    private double _mouseX;
+    private double _mouseY;
+    string parallaxStyle = "background-position: 50%, 50%, 50%";
 
-<Counter IncrementAmount="10" />
+    private void MoveParallax(MouseEventArgs e)
+    {
+        _mouseX = e.ClientX;
+        _mouseY = e.ClientY;
+        
+        string _depth1 = $"{50 - (_mouseX - _w) * -0.003}% {50 - (_mouseY - _h) * -0.003}%";
+        string _depth2 = $"{50 - (_mouseX - _w) * -0.02}% {50 - (_mouseY - _h) * -0.02}%";
+        string _depth3 = $"{50 - (_mouseX - _w) * -0.06}% {50 - (_mouseY - _h) * -0.06}%";
+        parallaxStyle = $"background-position: {_depth3}, {_depth2}, {_depth1};";
+    }
 
-<AlcarodiaTimeline />
+    private void ResetParallax()
+    {
+        parallaxStyle = "background-position: 50%, 50%, 50%";
+    }
+}
