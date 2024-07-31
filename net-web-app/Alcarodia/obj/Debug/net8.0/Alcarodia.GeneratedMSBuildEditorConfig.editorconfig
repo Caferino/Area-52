@@ -29,6 +29,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BbGNhcm9kaWFUaW1lbGluZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/Components/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db250YWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -43,10 +47,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/Components/Pages/Todo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ub2RvLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/Components/Routes.razor]

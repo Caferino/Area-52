@@ -64,6 +64,92 @@ h1:focus {
                       url("../ring-piece.svg");
 }
 
+.parallax.transition {
+    transition: background-position 1s;
+}
+
+@keyframes return {
+    100% {
+        background-position: 50%, 50%, 50%;
+    }
+}
+
+.nav-title {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Alcarodian', sans-serif;
+    font-size: 2vw;
+    animation: shadow-pulse 6s infinite ease-in-out, breathe 6s infinite ease-in-out;
+}
+
+@keyframes shadow-pulse {
+    50% {
+        text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes breathe {
+    50% {
+      letter-spacing: 0.01em;
+    }
+}
+
+.content, .about {
+    width: 75vw;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+#about-bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(208,208,208);
+    background: linear-gradient(90deg, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(208,208,208,1) 100%);
+    z-index: -1;
+}
+
+.about {
+    width: 75vw;
+    margin-bottom: 0;
+    flex-direction: row;
+}
+
+.Ca {
+    align-self: center;
+    font-size:24px;
+    margin: 28px;
+}
+
+.ignoresvg {
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#parchment {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 2px 3px 0px black, 0 0 60px #8a4d0f inset;
+    background: #fff678;
+    z-index: -1;
+}
+
+@media (max-width: 1281px) {
+    .about {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 1279px) {
+    .about {
+      width: 85vw;
+      flex-direction: column;
+    }
+}
+
 @font-face {
     font-family: 'Alcarodian';
     src: url("fonts/Alcarodian.otf") format('opentype');

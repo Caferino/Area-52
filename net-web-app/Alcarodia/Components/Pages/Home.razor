@@ -1,17 +1,19 @@
 ﻿@page "/"
 @rendermode InteractiveServer
 
-<div class="parallax" @onmousemove="MoveParallax" @onmouseleave="ResetParallax" style="@parallaxStyle"></div>
+<div class="parallax @(IsMoving ? "" : "transition")" @onmousemove="MoveParallax" @onmouseleave="ResetParallax" style="@parallaxStyle"></div>
 
 @code {
     private double _w = 960;
     private double _h = 540;
     private double _mouseX;
     private double _mouseY;
+    private bool IsMoving = false;
     string parallaxStyle = "background-position: 50%, 50%, 50%";
 
     private void MoveParallax(MouseEventArgs e)
     {
+        IsMoving = true;
         _mouseX = e.ClientX;
         _mouseY = e.ClientY;
         
@@ -23,6 +25,7 @@
 
     private void ResetParallax()
     {
+        IsMoving = false;
         parallaxStyle = "background-position: 50%, 50%, 50%";
     }
 }

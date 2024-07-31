@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alcarodia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06c955c1a29427f52b06c9cf5863c755611a002d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b509b376cbac65b01cc14d61f59d14501420845")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alcarodia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alcarodia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
