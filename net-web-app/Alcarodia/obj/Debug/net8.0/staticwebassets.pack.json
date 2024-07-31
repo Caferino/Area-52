@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/Alcarodia.bundle.scp.css"
     },
     {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/Ca.png",
+      "PackagePath": "staticwebassets/Ca.png"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/alcarodia-piece.svg",
+      "PackagePath": "staticwebassets/alcarodia-piece.svg"
+    },
+    {
       "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/alcarodia.svg",
       "PackagePath": "staticwebassets/alcarodia.svg"
     },
@@ -23,6 +31,26 @@
     {
       "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/fonts/Alcarodian.otf",
+      "PackagePath": "staticwebassets/fonts/Alcarodian.otf"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/homepage images/A New World Cover.jpeg",
+      "PackagePath": "staticwebassets/homepage images/A New World Cover.jpeg"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/ring-piece.svg",
+      "PackagePath": "staticwebassets/ring-piece.svg"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/scroll-down.gif",
+      "PackagePath": "staticwebassets/scroll-down.gif"
+    },
+    {
+      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/world-piece.svg",
+      "PackagePath": "staticwebassets/world-piece.svg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Alcarodia.Microsoft.AspNetCore.StaticWebAssets.props",

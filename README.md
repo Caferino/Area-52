@@ -28,8 +28,11 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 
 <img src="how-opengl-works/output.jpg" alt="Lesson 02" width=300>
 
-
 ---
+
+**P004:** Quick .NET Blazor Website Prototype  ![Quick .NET Blazor Website Prototype](.image/README/blazor.svg)
+
+<img src=".image/README/blazor-web.png" alt="Lesson 02" width=800>
 
 ---
 

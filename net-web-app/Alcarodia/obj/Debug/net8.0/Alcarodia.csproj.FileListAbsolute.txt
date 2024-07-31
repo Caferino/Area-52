@@ -28,3 +28,17 @@
 /home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/obj/Debug/net8.0/Alcarodia.pdb
 /home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/obj/Debug/net8.0/Alcarodia.genruntimeconfig.cache
 /home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/obj/Debug/net8.0/ref/Alcarodia.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.AspNetCore.Components.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Forms.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Web.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.Extensions.Localization.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.Extensions.Localization.Abstractions.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/Microsoft.JSInterop.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/bin/Debug/net8.0/MudBlazor.dll
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/obj/Debug/net8.0/Alcarodia.csproj.AssemblyReference.cache
+/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/obj/Debug/net8.0/Alcarodia.csproj.Up2Date
