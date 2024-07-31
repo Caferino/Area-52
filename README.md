@@ -30,7 +30,7 @@ Sources: https://app.codecrafters.io/catalog   ||   https://github.com/codecraft
 
 ---
 
-**P004:** Quick .NET Blazor Website Prototype  ![Ray Tracing Image](.image/README/opengl.svg)
+**P004:** Quick .NET Blazor Website Prototype  ![Quick .NET Blazor Website Prototype](.image/README/blazor.svg)
 
 <img src=".image/README/blazor-web.png" alt="Lesson 02" width=800>
 
