@@ -37,10 +37,6 @@
       "PackagePath": "staticwebassets/fonts/Alcarodian.otf"
     },
     {
-      "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/homepage images/A New World Cover.jpeg",
-      "PackagePath": "staticwebassets/homepage images/A New World Cover.jpeg"
-    },
-    {
       "Id": "/home/caferino/Documents/Projects/GitHub/Personal/Learning Projects/Area-52/net-web-app/Alcarodia/wwwroot/ring-piece.svg",
       "PackagePath": "staticwebassets/ring-piece.svg"
     },

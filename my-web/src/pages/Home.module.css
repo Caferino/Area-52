@@ -1,0 +1,23 @@
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #001f3f;
+    background-size: 50%, 50%, 50%;
+    background-repeat: no-repeat;
+    background-image: url("../../public/alcarodia-piece.svg"),
+                      url("../../public/world-piece.svg"), 
+                      url("../../public/ring-piece.svg");
+}
+
+.parallax.transition {
+    transition: background-position 1s;
+}
+
+@keyframes return {
+    100% {
+        background-position: 50%, 50%, 50%;
+    }
+}
