@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Style from './Home.module.css';
+import Style from './HomePage.module.css';
 
-const Home = () => {
+const HomePage = () => {
   const [parallaxStyle, setParallaxStyle] = useState("50%, 50%, 50%");
   const [isMoving, setIsMoving] = useState(false);
   const _w = window.innerWidth/2; // Window width center (can adjust)
@@ -35,10 +35,8 @@ const Home = () => {
       onMouseMove={(ev)=> moveParallax(ev)}
       onMouseLeave={resetParallax}
       style={{ backgroundPosition: parallaxStyle }}
-    >
-      {/* Content inside parallax, if any */}
-    </div>
+    ></div>
   );
 };
 
-export default Home
+export default HomePage;

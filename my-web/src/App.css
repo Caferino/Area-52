@@ -1,3 +1,113 @@
+/* Font */
+@font-face {
+  font-family: 'Alcarodian';
+  src: url("../public/fonts/Alcarodian.otf") format('opentype');
+}
+
+/* Page */
+.Page {
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.Content {
+  display: flex;
+  padding-top: 1.1rem;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+/* Navbar */
+nav {
+  z-index: 1;
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+}
+
+.nav-scrollable {
+  display: none;
+}
+
+@media (min-width: 641px) {
+  .sidebar {
+    height: 10vh;
+    margin: 3%;
+    z-index: 2;
+  }
+
+  .nav-scrollable {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+/* Nav Item */
+.nav-item {
+  font-size: 0.9rem;
+  padding-right: 1rem!important;
+  padding-left: 1rem!important;
+  background: none;
+  color: #424242;
+  border: none;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link {
+  color: #424242;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: white;
+}
+
+.nav-title {
+  font-family: 'Alcarodian', sans-serif;
+  font-size: 2vw;
+  animation: shadow-pulse 6s infinite ease-in-out, breathe 6s infinite ease-in-out;
+}
+
+@keyframes shadow-pulse {
+  50% {
+      text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes breathe {
+  50% {
+    letter-spacing: 0.01em;
+  }
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Maybe deprecated */
 .App {
   text-align: center;
 }
