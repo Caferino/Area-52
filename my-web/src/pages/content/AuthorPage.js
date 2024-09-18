@@ -2,9 +2,14 @@ import Style from './AuthorPage.module.css';
 
 const AuthorPage = () => {
     return (
-        <div className={Style.AuthorPage}></div>
+        <div>
+            <div className={Style.AuthorPage}></div>
 
-        /* Content here */
+            /* Content here */
+            <div>
+                <h2> Content </h2>
+            </div>
+        </div>
     );
 };
 

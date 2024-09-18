@@ -2,9 +2,14 @@ import Style from './ProjectsPage.module.css';
 
 const ProjectsPage = () => {
     return (
-        <div className={Style.ProjectsPage}></div>
+        <div>
+            <div className={Style.ProjectsPage}></div>
 
-        /* Content here */
+            /* Content here */
+            <div>
+                <h2> Content </h2>
+            </div>
+        </div>
     );
 };
 
