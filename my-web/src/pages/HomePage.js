@@ -4,14 +4,13 @@ import Style from './HomePage.module.css';
 const HomePage = () => {
   const [parallaxStyle, setParallaxStyle] = useState("50%, 50%, 50%");
   const [isMoving, setIsMoving] = useState(false);
-  const _w = window.innerWidth/2; // Window width center (can adjust)
+  const _w = window.innerWidth/2;  // Window width center (can adjust)
   const _h = window.innerHeight/2; // Window height center (can adjust)
 
   function moveParallax(ev) {
     setIsMoving(true);
     const _mouseX = ev.clientX;
     const _mouseY = ev.clientY;
-    console.log(isMoving);
 
     const _depth1 = `${50 - (_mouseX - _w) * -0.003}% ${50 - (_mouseY - _h) * -0.003}%`;
     const _depth2 = `${50 - (_mouseX - _w) * -0.02}% ${50 - (_mouseY - _h) * -0.02}%`;
@@ -22,10 +21,6 @@ const HomePage = () => {
 
   const resetParallax = () => {
     setIsMoving(false);
-    console.log(isMoving);
-    console.log("Why?");
-    console.log(isMoving);
-
     setParallaxStyle("50%, 50%, 50%");
   };
 
