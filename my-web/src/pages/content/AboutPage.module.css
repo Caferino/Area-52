@@ -1,9 +1,14 @@
-.AboutPage {
+.AboutPageBackground {
     top: 0;
     left: 0;
     z-index: -1;
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-color: #77dd77;
+    background-color: #77DD77;
+}
+
+.AboutPage {
+    border: 2px solid black;
+    border-radius: 10px;
 }

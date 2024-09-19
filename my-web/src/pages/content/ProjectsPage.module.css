@@ -1,9 +1,14 @@
-.ProjectsPage {
+.ProjectsPageBackground {
     top: 0;
     left: 0;
     z-index: -1;
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-color: #f5e8a9;
+    background-color: #E8CE72;
+}
+
+.ProjectsPage {
+    border: 2px solid black;
+    border-radius: 10px;
 }

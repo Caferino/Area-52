@@ -26,7 +26,7 @@ const HomePage = () => {
 
   return (
     <div
-      className={`${Style.parallax} ${isMoving ? "" : Style.transition}`}
+      className={`${Style.HomepageBackground} ${isMoving ? "" : Style.transition}`}
       onMouseMove={(ev)=> moveParallax(ev)}
       onMouseLeave={resetParallax}
       style={{ backgroundPosition: parallaxStyle }}
