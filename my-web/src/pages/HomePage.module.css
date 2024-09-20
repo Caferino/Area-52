@@ -1,11 +1,10 @@
 .HomepageBackground {
     top: 0;
     left: 0;
-    z-index: -1;
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-color: #001F3F;
+    /* background-color: #001F3F; */
     background-size: 50%, 50%, 50%;
     background-repeat: no-repeat;
     background-image: url("../../public/alcarodia-piece.svg"),

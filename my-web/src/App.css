@@ -6,10 +6,17 @@
 
 /* Page */
 .Page {
+  flex-wrap: wrap;
   position: relative;
   flex-direction: column;
-  flex-wrap: wrap;
   align-content: space-around;
+}
+
+.Background {
+  z-index: -1;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #001F3F;
 }
 
 .Content {
@@ -33,20 +40,24 @@ nav {
   display: none;
 }
 
-@media (min-width: 641px) {
-  .sidebar {
-    height: 10vh;
-    margin: 3%;
-    z-index: 2;
-  }
+.Sidebar {
+  height: 10vh;
+  margin: 3%;
+  z-index: 2;
+}
 
-  .nav-scrollable {
-      display: flex;
-      height: 100%;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-  }
+.nav-scrollable {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 641px) {
+  
+
+  
 }
 
 /* Nav Item */

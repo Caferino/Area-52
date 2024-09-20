@@ -1,4 +1,4 @@
-.AuthorPageBackground {
+/* .AuthorPageBackground {
     top: 0;
     left: 0;
     z-index: -1;
@@ -6,6 +6,17 @@
     height: 100vh;
     position: absolute;
     background-color: #FD8787;
+} */
+
+.AuthorImage {
+    max-width: 200px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.AuthorImage:hover {
+    filter: grayscale(0%);
 }
 
 .AuthorPage {
@@ -14,5 +25,5 @@
 }
 
 .AuthorPageContent {
-    margin: 60px;
+    margin: 30px;
 }
