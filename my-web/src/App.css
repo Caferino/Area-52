@@ -86,9 +86,13 @@ nav {
 }
 
 .nav-title {
-  font-family: 'Alcarodian', sans-serif;
   font-size: 2vw;
+  font-family: 'Alcarodian', sans-serif;
   animation: shadow-pulse 6s infinite ease-in-out, breathe 6s infinite ease-in-out;
+}
+
+.nav-main {
+  font-size: 4vw;
 }
 
 @keyframes shadow-pulse {

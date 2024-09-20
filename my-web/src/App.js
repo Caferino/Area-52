@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './logo.svg';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/content/AboutPage';
 import AuthorPage from './pages/content/AuthorPage';
@@ -36,7 +35,7 @@ function App() {
                 </div>
                 <div className="nav-item">
                   <NavLink activeclassname="nav-link.active" className="nav-link" to="">
-                      <span className="nav-title" style={{fontSize: "4vw"}}> ALCARODIA </span></NavLink>
+                      <span className="nav-title nav-main"> ALCARODIA </span></NavLink>
                 </div>
                 <div className="nav-item">
                   <NavLink activeclassname="nav-link.active" className="nav-link" to="/author">
