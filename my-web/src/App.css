@@ -1,0 +1,164 @@
+/* Font */
+@font-face {
+  font-family: 'Alcarodian';
+  src: url("../public/fonts/Alcarodian.otf") format('opentype');
+}
+
+/* Page */
+.Page {
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.Background {
+  z-index: -1;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #001F3F;
+}
+
+.Content {
+  display: flex;
+  padding-top: 1.1rem;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+/* Navbar */
+nav {
+  z-index: 1;
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+}
+
+.nav-scrollable {
+  display: none;
+}
+
+.Sidebar {
+  height: 10vh;
+  margin: 3%;
+  z-index: 2;
+}
+
+.nav-scrollable {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 641px) {
+  
+
+  
+}
+
+/* Nav Item */
+.nav-item {
+  font-size: 0.9rem;
+  padding-right: 1rem!important;
+  padding-left: 1rem!important;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #424242;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+.nav-link.active {
+  color: white;
+}
+
+.nav-title {
+  font-size: 2vw;
+  font-family: 'Alcarodian', sans-serif;
+  animation: shadow-pulse 6s infinite ease-in-out, breathe 6s infinite ease-in-out;
+}
+
+.nav-main {
+  font-size: 4vw;
+}
+
+@keyframes shadow-pulse {
+  50% {
+      text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes breathe {
+  50% {
+    letter-spacing: 0.01em;
+  }
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Maybe deprecated */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
