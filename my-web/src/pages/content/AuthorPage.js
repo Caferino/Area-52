@@ -4,7 +4,7 @@ import Style from './AuthorPage.module.css';
 const AuthorPage = () => {
     return (
         <div>
-            {/* Content here */}
+            { /* Content here */ }
             <div className={Style.AuthorPage}>
                 <div className={Style.AuthorPageContent}>
                     <img className={Global.AlcarodianImage} src="images/author/Ca.png" alt="Ca, the father of Alcarodia" />
@@ -12,7 +12,7 @@ const AuthorPage = () => {
                     <div className={Style.AuthorDescription}>
                         <div className={Global.AlcarodianTitle}>
                             <h1 className={Global.NoMarginBlock}>
-                                {/* The span styles below are needed to remove a tiny space after the last letter caused by letter-spacing */}
+                                { /* The span styles below are needed to remove a tiny space after the last letter caused by letter-spacing */ }
                                 C<span style={{ letterSpacing: '0px' }}>A</span>
                             </h1>
                             <p className={Global.NoMarginBlockStart}>

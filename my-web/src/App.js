@@ -27,7 +27,7 @@ function App() {
           {/* Navbar */}
           <div className="Sidebar">
             <div className="nav-scrollable">
-              <nav className="flex-row">
+              <nav className="vcenter-row">
                 <div className="nav-item">
                   <NavLink activeclassname="nav-link.active" className="nav-link" to="/about">
                     <span className="nav-title"> ABOUT </span></NavLink>

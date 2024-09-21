@@ -26,6 +26,13 @@
   flex-direction: column;
 }
 
+@media (max-width: 569px) {
+  .Content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 /* Navbar */
 nav {
   z-index: 1;
@@ -51,22 +58,20 @@ nav {
   justify-content: center;
 }
 
-@media (max-width: 569px) {
-  .Content {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
 /* Nav Item */
 .nav-item {
-  width: 100%;
   display: flex;
-  font-size: 0.9rem;
-  align-items: center;
-  border-radius: 2px;
-  padding-left: 1rem!important;
-  padding-right: 1rem!important;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* I love the font MOGRythm (Alcarodia) so much, however, the way its glyphs are cropped is weird. 
+   It has bugs I tried to fix with FontForge, but this solution is enough to keep it centered.
+   Without this, if you count the pixels, the navbar seems off by like 12px to the left. */
+@media (min-width: 1299px) {
+  .nav-item {
+    margin-left: 2rem;
+  }
 }
 
 .nav-link:hover {
@@ -105,6 +110,6 @@ nav {
   }
 }
 
-.flex-row {
-  flex-direction: row !important;
+.vcenter-row {
+  align-items: center;
 }
