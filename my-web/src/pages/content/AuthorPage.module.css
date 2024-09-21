@@ -1,29 +1,31 @@
-/* .AuthorPageBackground {
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    background-color: #FD8787;
-} */
-
-.AuthorImage {
-    max-width: 200px;
-    border-radius: 10px;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
-}
-
-.AuthorImage:hover {
-    filter: grayscale(0%);
-}
-
 .AuthorPage {
-    border: 2px solid black;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .AuthorPageContent {
     margin: 30px;
+    display: flex;
+}
+
+.AuthorDescription {
+    width: 100%;
+    display: flex;
+    font-size: large;
+    text-align: center;
+    margin-left: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 999px) {
+    .AuthorPageContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AuthorDescription {
+        margin-left: 0px;
+    }
 }
