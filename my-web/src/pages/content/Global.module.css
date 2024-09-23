@@ -7,28 +7,29 @@
 }
 
 .LeftArrow {
-    width: 22%;
+    width: 20%;
     margin-left: 5vw;
     margin-right: 15px;
 }
 
 .RightArrow {
-    width: 22%;
+    width: 20%;
     transform: scaleX(-1);
     margin-left: 15px;
     margin-right: 5vw;
 }
 
 .AlcarodianTitle {
-    font-family: 'Alcarodian';
     color: white;
-    letter-spacing: 5px;
+    font-size: 1.5rem;
     text-align: center;
+    font-family: 'Alcarodian';
+    letter-spacing: 5px;
 }
 
 .AlcarodianImage {
+    width: 100%;
     filter: grayscale(100%);
-    max-width: 300px;
     transition: filter 0.3s ease-in-out;
     border-radius: 10px;
 }

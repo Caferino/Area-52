@@ -1,14 +1,9 @@
 .ProjectsPage {
     border: 1px solid black;  /* REMOVE */
-    border-radius: 10px;        /* REMOVE */
     display: flex;
-    flex-direction: row;
+    border-radius: 10px;        /* REMOVE */
+    flex-direction: column;
 }
-
-/* .ProjectsPageOLD {
-    border: 1px solid black;
-    border-radius: 10px;
-} */
 
 .ProjectsPageContentCardRow {
     width: 100%;
@@ -19,10 +14,20 @@
 }
 
 .ProjectsPageContentCard {
+    width: 33%;
+    max-width: 512px;
     margin: 30px;
     border: 1px solid black;  /* REMOVE */
-    padding: 15px;
     display: flex;
     align-items: center;
+    border-radius: 10px;;
     flex-direction: column;
+}
+
+.ProjectsPageContentCardImage {
+    margin: 5%;
+}
+
+.ProjectsPageContentCardDescription {
+    margin: 30px;
 }

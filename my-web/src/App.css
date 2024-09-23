@@ -68,7 +68,7 @@ nav {
 /* I love the font MOGRythm (Alcarodia) so much, however, the way its glyphs are cropped is weird. 
    It has bugs I tried to fix with FontForge, but this solution is enough to keep it centered.
    Without this, if you count the pixels, the navbar seems off by like 12px to the left. */
-@media (min-width: 1299px) {
+@media (min-width: 1099px) {
   .nav-item {
     margin-left: 2rem;
   }
