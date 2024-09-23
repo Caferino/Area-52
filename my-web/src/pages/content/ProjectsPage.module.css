@@ -1,14 +1,33 @@
-/* .ProjectsPageBackground {
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    background-color: #E8CE72;
-} */
-
 .ProjectsPage {
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 1px solid black;  /* REMOVE */
+    display: flex;
+    border-radius: 10px;        /* REMOVE */
+    flex-direction: column;
+}
+
+.ProjectsPageContentCardRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ProjectsPageContentCard {
+    width: 33%;
+    max-width: 512px;
+    margin: 30px;
+    border: 1px solid black;  /* REMOVE */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;;
+    flex-direction: column;
+}
+
+.ProjectsPageContentCardImage {
+    margin: 5%;
+}
+
+.ProjectsPageContentCardDescription {
+    margin: 30px;
 }

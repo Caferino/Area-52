@@ -4,7 +4,7 @@ import AboutPage from './pages/content/AboutPage';
 import AuthorPage from './pages/content/AuthorPage';
 import ContactPage from './pages/content/ContactPage';
 import ProjectsPage from './pages/content/ProjectsPage';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 
 function App() {
@@ -12,7 +12,10 @@ function App() {
   const [color, setColor] = useState('#424242');
 
   function HandleNavigation({ color, Path }) {
-    setColor(color);
+    useEffect(() => {
+      setColor(color);
+    }, [color]);
+
     return <Path />;
   }
 
@@ -24,7 +27,7 @@ function App() {
           {/* Navbar */}
           <div className="Sidebar">
             <div className="nav-scrollable">
-              <nav className="flex-row">
+              <nav className="vcenter-row">
                 <div className="nav-item">
                   <NavLink activeclassname="nav-link.active" className="nav-link" to="/about">
                     <span className="nav-title"> ABOUT </span></NavLink>
