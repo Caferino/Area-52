@@ -13,7 +13,7 @@ const ProjectsPage = () => {
                     <div className={Style.ProjectsPageContentCard}>
                         { /* Image */ }
                         <div className={Style.ProjectsPageContentCardImage}>
-                            <img className={Global.AlcarodianImage} src="images/projects/ruby.svg" alt="Ruby" />
+                            <img className={Global.AlcarodianImage} src="images/projects/test.png" alt="Ruby" />
                         </div>
 
                         { /* Description */ }
@@ -44,6 +44,11 @@ const ProjectsPage = () => {
 
                     { /* CARD 1.2 - PROJECT 1.2 */ }
                     <div className={Style.ProjectsPageContentCard}>
+                        { /* Image */ }
+                        <div className={Style.ProjectsPageContentCardImage}>
+                            <img className={Global.AlcarodianImage} src="images/projects/test.png" alt="Ruby" />
+                        </div>
+
                         <div className={Global.AlcarodianTitle}>
                             <h1 className={Global.NoMarginBlock}>
                                 { /* The span styles below are needed to remove a tiny space after the last letter caused by letter-spacing */ }
@@ -69,6 +74,11 @@ const ProjectsPage = () => {
 
                     { /* CARD 1.3 - PROJECT 1.3 */ }
                     <div className={Style.ProjectsPageContentCard}>
+                        { /* Image */ }
+                        <div className={Style.ProjectsPageContentCardImage}>
+                            <img className={Global.AlcarodianImage} src="images/projects/test.png" alt="Ruby" />
+                        </div>
+
                         <div className={Global.AlcarodianTitle}>
                             <h1 className={Global.NoMarginBlock}>
                                 { /* The span styles below are needed to remove a tiny space after the last letter caused by letter-spacing */ }
@@ -101,7 +111,9 @@ const ProjectsPage = () => {
                     { /* CARD 1.1 - PROJECT 1.1 */ }
                     <div className={Style.ProjectsPageContentCard}>
                         { /* Image */ }
-                        <img className={Global.AlcarodianImage} src="images/projects/ruby.svg" alt="Ruby" />
+                        <div className={Style.ProjectsPageContentCardImage}>
+                            <img className={Global.AlcarodianImage} src="images/projects/test.png" alt="Ruby" />
+                        </div>
 
                         { /* Description */ }
                         <div className={Style.ProjectsPageContentCardDescription}>
@@ -131,6 +143,11 @@ const ProjectsPage = () => {
 
                     { /* CARD 1.2 - PROJECT 1.2 */ }
                     <div className={Style.ProjectsPageContentCard}>
+                        { /* Image */ }
+                        <div className={Style.ProjectsPageContentCardImage}>
+                            <img className={Global.AlcarodianImage} src="images/projects/test.png" alt="Ruby" />
+                        </div>
+
                         <div className={Global.AlcarodianTitle}>
                             <h1 className={Global.NoMarginBlock}>
                                 { /* The span styles below are needed to remove a tiny space after the last letter caused by letter-spacing */ }
@@ -156,6 +173,11 @@ const ProjectsPage = () => {
 
                     { /* CARD 1.3 - PROJECT 1.3 */ }
                     <div className={Style.ProjectsPageContentCard}>
+                        { /* Image */ }
+                        <div className={Style.ProjectsPageContentCardImage}>
+                            <img className={Global.AlcarodianImage} src="images/projects/test.png" alt="Ruby" />
+                        </div>
+
                         <div className={Global.AlcarodianTitle}>
                             <h1 className={Global.NoMarginBlock}>
                                 { /* The span styles below are needed to remove a tiny space after the last letter caused by letter-spacing */ }
